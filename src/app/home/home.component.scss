@@ -1,0 +1,144 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #2c343b;
+    background-color: #f2f2f2;
+  }
+  
+  a {
+    color: #d44457;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+
+
+  
+  .cd-header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #21272c;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @media only screen and (min-width: 768px) {
+    .cd-header {
+      height: 70px;
+      background-color: transparent;
+    }
+  }
+  
+  #cd-logo {
+    float: left;
+    margin: 13px 0 0 5%;
+  }
+  #cd-logo img {
+    display: block;
+  }
+  @media only screen and (min-width: 768px) {
+    #cd-logo {
+      margin: 23px 0 0 5%;
+    }
+  }
+  
+  
+
+  .cd-slider-nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    text-align: center;
+    height: 55px;
+    background-color: rgba(0, 1, 1, 0.5);
+  }
+  .cd-slider-nav nav, .cd-slider-nav ul, .cd-slider-nav li, .cd-slider-nav a {
+    height: 100%;
+  }
+  .cd-slider-nav nav {
+    display: inline-block;
+    position: relative;
+  }
+  .cd-slider-nav .cd-marker {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    color: #d44457;
+    background-color: #ffffff;
+    box-shadow: inset 0 2px 0 currentColor;
+    -webkit-transition: -webkit-transform 0.2s, box-shadow 0.2s;
+    -moz-transition: -moz-transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .cd-slider-nav .cd-marker.item-2 {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .cd-slider-nav .cd-marker.item-3 {
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
+    transform: translateX(200%);
+  }
+  .cd-slider-nav .cd-marker.item-4 {
+    -webkit-transform: translateX(300%);
+    -moz-transform: translateX(300%);
+    -ms-transform: translateX(300%);
+    -o-transform: translateX(300%);
+    transform: translateX(300%);
+  }
+  .cd-slider-nav .cd-marker.item-5 {
+    -webkit-transform: translateX(400%);
+    -moz-transform: translateX(400%);
+    -ms-transform: translateX(400%);
+    -o-transform: translateX(400%);
+    transform: translateX(400%);
+  }
+
+
+
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  /* custom styles */
+  body {
+    padding: 4em;
+    background: #e5e5e5;
+    font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+  label {
+    display: block;
+  }
+  input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 190px;
+  }
+
+  [type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
